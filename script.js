@@ -43,3 +43,22 @@ firstButton.addEventListener('click', getGameOne);
 secondButton.addEventListener('click', getGameTwo);
 thirdButton.addEventListener('click', getGameThree);
 
+//Game night page
+//collapsing game list
+
+let listNo = document.getElementById('listNo');
+let buttonNum = document.getElementById('buttonNum');
+
+const collapse = () => {
+    let isCollapsed = 0;
+
+    if (isCollapsed === 0){
+        listNo.display = 'block';
+        isCollapsed += 1;
+    } else {
+        listNo.display = 'none';
+        isCollapsed -= 1;
+    }
+};
+
+buttonNum.addEventListener('click', collapse);

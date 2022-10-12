@@ -260,6 +260,29 @@ nav {
   box-shadow: inset 2px 2px 5px 3px black, inset -2px -2px 5px 3px black;
 }
 
+.glist ul {
+  display: none;
+}
+
+.glist h3 {
+  font-family: "Press Start 2P";
+  background-color: hsl(360, 0%, 60%);
+  color: hsl(0, 100%, 50%);
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.glist h3:hover {
+  color: hsl(70, 100%, 50%);
+  background-color: hsl(0, 100%, 50%);
+  transition: .2s;
+}
+
+.glist h3:active {
+  box-shadow: inset 2px 2px 5px 3px black, inset -2px -2px 5px 3px black;
+}
 /*--------------Game Night---------------------*/
 
 .game_recs {
