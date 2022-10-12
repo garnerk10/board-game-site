@@ -1,0 +1,59 @@
+.colors, .fonts, .styles {
+    border: 1px black solid;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+}
+/*color box*/
+.colors {
+    text-align: center;
+}
+
+.red-panel {
+    background-color:hsl(340, 100%, 50%);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+.gray-panel {
+    background-color: hsl(360, 0%, 60%);
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+/*font box*/
+.fonts{
+
+}
+.inline {
+    font-family: "bungee inline", sans-serif;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.shade {
+    font-family: "bungee shade", sans-serif;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.roboto {
+    font-family: Roboto, sans-serif;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+/*style box*/
+.styles {
+
+}
+
